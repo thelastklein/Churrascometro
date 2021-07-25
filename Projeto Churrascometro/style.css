@@ -1,16 +1,57 @@
 .conteiner{
-    font-family: Arial, Helvetica, sans-serif;
-    max-width: 300px;
+    max-width: 400px;
+    height: 400px;
     margin: auto;
-    background-color: aliceblue;
+    background-color: burlywood;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 60px;
 }
 
 input{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display:block;
     width: 100%;
     padding: 5px;
     box-sizing: border-box;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+#botao{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:red;
+    margin: auto;
+    width: 6em;
+    height: 6em;
+    border-radius: 40px; 
+}
+
+#botao:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#botao:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1{
+    color: chocolate;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#resultado{
+    color: chocolate;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.corpo{
+    background-image: url(./carnes-com-cerveja.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
