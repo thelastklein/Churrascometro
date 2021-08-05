@@ -1,12 +1,13 @@
 .conteiner{
     max-width: 400px;
-    height: 400px;
+    height: 410px;
     margin: auto;
     background-color: burlywood;
     padding: 20px;
     border-radius: 20px;
     text-align: center;
     margin-top: 60px;
+    border-style: solid;
 }
 
 input{
@@ -17,15 +18,19 @@ input{
     box-sizing: border-box;
     margin-bottom: 20px;
     border-radius: 20px;
+    border-style: solid;
+    border-color: black;
 }
 
 #botao{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color:red;
-    margin: auto;
+    background-color: chocolate;
+    margin-top: 10px;
     width: 6em;
     height: 6em;
     border-radius: 40px; 
+    border-style: solid;
+    border-color: black;
 }
 
 #botao:hover{
@@ -41,6 +46,9 @@ input{
 h1{
     color: chocolate;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: solid;
+    border-color:black;
+    border-radius: 20px;
 
 }
 
