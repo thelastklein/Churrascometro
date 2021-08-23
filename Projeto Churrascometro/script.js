@@ -1,8 +1,8 @@
-//Carne - 400 gr por pessoa / se o evento durar mais de 6 horas são 650 gr
-// Cerveja - 1200 ml por pessoa / + de 6 horas são 2000 ml
-// Refrigerante/suco - 1000 ml por pessoa / + de 6 horas 1500 ml
+//Carne - 500 gr por pessoa / se o evento durar mais de 4 horas são 1000 gr
+// Cerveja - 2100 ml por pessoa / + de 4 horas são 4200 ml
+// Refrigerante/suco - 1000 ml por pessoa / + de 4 horas 1500 ml
 
-//Crianças valem po 0,5
+//Crianças valem por 0,5
 
 
 let inputAdultos = document.getElementById("adultos");
@@ -29,23 +29,23 @@ function calcular() {
 
 
 function carnePorPessoa(duracao){
-    if (duracao >= 6) {
-        return 650;
+    if (duracao >= 4) {
+        return 1000;
     } else{
-        return 400;
+        return 500;
     } 
 }
 
 function cervejaPorPessoa(duracao){
-    if (duracao >= 6) {
-        return 2000;
+    if (duracao >= 4) {
+        return 4200;
     } else{
-        return 1200;
+        return 2100;
     } 
 }
 
 function bebidaPorPessoa(duracao){
-    if (duracao >=6) {
+    if (duracao >=4) {
         return 1500;
     } else {
         return 1000;
